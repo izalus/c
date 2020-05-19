@@ -1,6 +1,0 @@
-{
-    "entry" : "./main.c",
-    "inputs" : {
-        "version" : "string"
-    }
-}

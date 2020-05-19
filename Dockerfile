@@ -1,5 +1,9 @@
-FROM gcc:4.9
-COPY . /usr/src/myapp
+FROM gcc:{{version}}
+
 WORKDIR /usr/src/myapp
+
+COPY . .
+
 RUN gcc -o myapp main.c
+
 CMD ["./myapp"]
