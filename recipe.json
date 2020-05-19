@@ -1,4 +1,5 @@
 {
+  "name": "C",
   "entry": ["main.c"],
   "inputs": {
     "version": {
